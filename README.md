@@ -1,41 +1,40 @@
-# Ôn tập giữa kì 1 - Tiếng Anh Lớp 2 (Review for Midterm Test 1 – English 2)
+# Cổng Ôn Tập Giữa Kì 1 - Lớp 2 (Grade 2 Midterm Review Hub)
 
-Ứng dụng web học tập tương tác giúp bé ôn thi giữa kì 1 môn Tiếng Anh Lớp 2, được chuyển đổi đầy đủ 100% từ file PDF với hình ảnh sắc nét và nhiều tính năng tương tác hỗ trợ học tập.
-
----
-
-## 🌟 Các tính năng nổi bật dành cho bé:
-
-1. **Giao diện sinh động, thân thiện với học sinh lớp 2**:
-   - Màu sắc tươi sáng, font chữ to rõ ràng, dễ nhìn.
-   - Thao tác đơn giản: có thể gõ phím hoặc chạm/bấm trực tiếp các thẻ từ, ô chữ cái trên màn hình (hỗ trợ cả máy tính, laptop, iPad, máy tính bảng và điện thoại).
-
-2. **Hỗ trợ phát âm chuẩn tiếng Anh (Audio / Text-to-Speech)**:
-   - Nút **🔊 Nghe đọc** ở từng đề bài, từng từ vựng, từng câu văn và cả hai mẩu truyện đọc hiểu giúp bé luyện nghe và phát âm chuẩn.
-
-3. **Âm thanh và hiệu ứng khen thưởng (Gamification)**:
-   - Hiệu ứng âm thanh khi bấm chọn hoặc làm đúng câu hỏi.
-   - Hiệu ứng pháo hoa giấy (confetti) rực rỡ và cúp vàng khi bé nộp bài đạt điểm cao.
-
-4. **Đầy đủ 7 phần bài tập theo đúng đề ôn tập**:
-   - **Part I**: *Look and label the pictures* (Nhìn tranh và điền từ vựng: chores, house, map, eat, buy, apartment, five, grown-up). Có ngân hàng từ bấm vào để tự điền nhanh.
-   - **Part II**: *Unscramble the words* (Sắp xếp chữ cái thành từ đúng). Có các phím chữ cái nổi để bé bấm ghép từ hoặc gõ phím.
-   - **Part III**: *Complete sentences* (Chọn từ thích hợp điền vào câu). Kèm dịch nghĩa tiếng Việt cho phụ huynh/bé tham khảo.
-   - **Part IV**: *Look and label pictures* (Nhìn tranh viết đúng từ: ax, dig, shoes, bag, ink, sheep).
-   - **Part V**: *Complete words with a, i, o, wh or sh* (Phonics - Điền nguyên âm/phụ âm ghép vào từ theo tranh).
-   - **Part VI**: *Reading comprehension* (Đọc hiểu 2 mẩu truyện ngắn Gramps & Dan, Mom and Dad và chọn đáp án trắc nghiệm).
-   - **Part VII**: *Picture observation Yes/No* (Quan sát bức tranh gia đình sum họp và chọn Yes/No).
-
-5. **Chế độ kiểm tra & học tập thông minh**:
-   - **🎯 Nộp bài & Chấm điểm**: Chấm điểm tự động thang điểm 48, hiển thị chi tiết điểm số từng phần và lời nhận xét động viên bé.
-   - **💡 Xem đáp án & Dịch nghĩa**: Bật/tắt xem đáp án cùng giải thích chi tiết và dịch nghĩa câu.
-   - **🔄 Làm lại**: Xóa bài làm để bé luyện tập lại nhiều lần.
-   - **💾 Tự động lưu tiến độ**: Tự động lưu bài làm vào trình duyệt, không sợ bé vô tình tải lại trang bị mất chữ.
-   - **🖨️ Chế độ in (Print)**: Bấm nút in hoặc nhấn `Ctrl + P` để in đề ra giấy A4 với dòng kẻ điền từ cho bé viết tay nếu cần.
+Hệ thống đề ôn thi giữa học kì 1 tương tác thông minh dành cho học sinh Lớp 2, bao gồm đầy đủ 3 môn:
+1. 🇬🇧 **Tiếng Anh 2 (English 2)**: *Review for Midterm Test 1*
+2. 🔢 **Toán Tiếng Anh 2 (Maths 2)**: *Review for Midterm Test 1*
+3. 📖 **Ngữ Pháp Tiếng Anh (Grammar 2 - Starters 2)**: *Review for Midterm Test 1*
 
 ---
 
-## 🚀 Cách mở và sử dụng:
+## 📁 Cấu Trúc Hệ Thống:
 
-- Chỉ cần **nhấp đúp chuột vào file `index.html`** để mở trên bất kì trình duyệt web nào (Google Chrome, Microsoft Edge, Safari, Cốc Cốc,...).
-- Toàn bộ hình ảnh và âm thanh đã được tích hợp sẵn bên trong, chạy mượt mà ngay cả khi **không có kết nối mạng Internet**.
+- [**`index.html`**](file:///c:/Users/thanhvp/Documents/GitHub/L2-GK1/index.html): **Trang chủ (Hub)**
+  - Nhập thông tin học sinh (Tên bé, Lớp) – tự động đồng bộ xuyên suốt cả 3 môn học.
+  - Thẻ chọn môn học trực quan với đầy đủ mô tả dạng bài và số điểm.
+  - Góc hướng dẫn phụ huynh & mẹo ôn thi hiệu quả.
+
+- [**`english.html`**](file:///c:/Users/thanhvp/Documents/GitHub/L2-GK1/english.html): **Môn Tiếng Anh 2 (48 điểm)**
+  - 7 phần bài tập: Tranh ảnh từ vựng, xếp chữ (unscramble), hoàn thành câu, phonics nguyên âm ghép, đọc hiểu 2 truyện ngắn Gramps & Dan / Mom & Dad, quan sát tranh Yes/No.
+  - Tích hợp phát âm chuẩn bản xứ 🔊, tự chấm điểm, xem đáp án & giải thích, pháo hoa khen thưởng.
+
+- [**`maths.html`**](file:///c:/Users/thanhvp/Documents/GitHub/L2-GK1/maths.html): **Môn Toán Tiếng Anh 2 (90 điểm)**
+  - 18 dạng toán: Tách chục & đơn vị (Tens and units), **Bàn tính gảy hạt ảo tương tác (Interactive Abacus)**, Thẻ mũi tên (Arrow cards), Đếm khối Base-10 mats, Phép cộng có nhớ, Thuật ngữ toán học, **Kim tự tháp số (Addition walls)**.
+  - Đọc đề tiếng Anh 🔊, tự chấm điểm, xem hướng dẫn từng bước và chế độ in đề (`Ctrl + P`).
+
+- [**`grammar.html`**](file:///c:/Users/thanhvp/Documents/GitHub/L2-GK1/grammar.html): **Môn Ngữ Pháp Tiếng Anh (Grammar Starters 2 - 37 điểm)**
+  - 6 phần bài tập:
+    1. Động từ khuyết thiếu **can / can’t** (hỏi và trả lời về khả năng).
+    2. Chia động từ thì **Hiện tại đơn (Simple Present Tense)** với quy tắc thêm *-s / -es* và giữ nguyên sau *does not*.
+    3. Trợ động từ **Does / doesn’t** trong câu nghi vấn và trả lời ngắn.
+    4. Động từ To Be **am / is / are**.
+    5. Thể phủ định với **am not / is not / are not**.
+    6. Trắc nghiệm khoanh tròn đáp án đúng (Circle the correct answers) tổng hợp.
+  - Nút chọn nhanh cấu trúc, loa phát âm từng câu 🔊, tự chấm điểm, giải thích quy tắc ngữ pháp chi tiết và chế độ in đề.
+
+---
+
+## 🚀 Cách Mở & Sử Dụng:
+
+- Nhấp đúp chuột vào file **`index.html`** để vào trang chủ, sau đó chọn môn học mà bé muốn ôn tập.
+- Toàn bộ hình ảnh, âm thanh, hiệu ứng đã được đóng gói hoàn chỉnh, **chạy 100% offline không cần kết nối mạng Internet**.
