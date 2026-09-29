@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cổng Ôn Tập Giữa Kì 1 - Lớp 2 | Hệ Thống Luyện Thi Thông Minh</title>
+  <title>Grade 2 Midterm Review Hub | Interactive Practice Platform</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -176,18 +176,12 @@
     /* Subject Cards Grid */
     .subjects-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
       margin-bottom: 36px;
     }
 
-    @media (max-width: 992px) {
-      .subjects-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 680px) {
+    @media (max-width: 768px) {
       .subjects-grid {
         grid-template-columns: 1fr;
       }
@@ -400,22 +394,22 @@
   <header class="hero-banner">
     <div class="hero-content">
       <div class="hero-badge">
-        <span>⭐</span> Ôn Thi Giữa Học Kì 1 - Lớp 2
+        <span>⭐</span> Grade 2 Midterm Review - Semester 1
       </div>
-      <h1 class="hero-title">Góc Học Tập & Ôn Thi Thông Minh</h1>
+      <h1 class="hero-title">Smart Learning & Review Hub</h1>
       <p class="hero-subtitle">
-        Hệ thống đề ôn thi tương tác giúp bé lớp 2 ôn luyện hiệu quả, phát âm tiếng Anh chuẩn và thao tác tính toán trực quan!
+        Interactive practice tests designed for Grade 2 students with native English audio, interactive math tools, and instant auto-grading!
       </p>
 
       <!-- Student Profile -->
       <div class="profile-card">
         <div class="profile-group">
-          <label for="profName">👤 Tên bé:</label>
-          <input type="text" id="profName" placeholder="Nhập tên bé..." oninput="updateProfile()">
+          <label for="profName">👤 Student Name:</label>
+          <input type="text" id="profName" placeholder="Enter student's name..." oninput="updateProfile()">
         </div>
         <div class="profile-group">
-          <label for="profClass">🏫 Lớp:</label>
-          <input type="text" id="profClass" placeholder="Ví dụ: 2A1..." oninput="updateProfile()">
+          <label for="profClass">🏫 Class:</label>
+          <input type="text" id="profClass" placeholder="e.g. 2A1..." oninput="updateProfile()">
         </div>
       </div>
     </div>
@@ -431,32 +425,32 @@
       <div class="subject-card" style="border-top: 6px solid #4361ee;">
         <div class="card-top">
           <span class="subject-badge badge-english">
-            <span>📝</span> Đề Ôn Thi 7 Phần • Thang Điểm 48
+            <span>📝</span> 7 Parts • Total: 48 Points
           </span>
           <div class="subject-icon">🇬🇧</div>
-          <h2 class="subject-title">Tiếng Anh 2 (English 2)</h2>
+          <h2 class="subject-title">English 2</h2>
           <p class="subject-desc">
-            Review for Midterm Test 1: Luyện từ vựng tranh ảnh, sắp xếp từ, hoàn thành câu, phonics nguyên âm ghép, đọc hiểu truyện ngắn và quan sát tranh Yes/No.
+            Review for Midterm Test 1: Picture vocabulary, word unscramble, sentence completion, phonics vowel digraphs, short reading stories, and True/False observation.
           </p>
 
           <ul class="feature-list">
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Có phát âm chuẩn giọng bản xứ cho từng từ & câu 🔊</span>
+              <span>Native speaker audio pronunciation for every word & sentence 🔊</span>
             </li>
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Ngân hàng từ vựng bấm vào để tự điền nhanh</span>
+              <span>Interactive word bank chips to fill in answers quickly</span>
             </li>
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Tự động chấm điểm, xem giải thích và pháo hoa khen thưởng</span>
+              <span>Instant auto-grading, answer explanations & celebratory fireworks</span>
             </li>
           </ul>
         </div>
 
         <a href="english.html" class="btn-subject btn-english" onclick="playClickSound()">
-          <span>👉</span> Bắt Đầu Làm Bài Tiếng Anh
+          <span>👉</span> Start English Test
         </a>
       </div>
 
@@ -464,32 +458,32 @@
       <div class="subject-card" style="border-top: 6px solid #0284c7;">
         <div class="card-top">
           <span class="subject-badge badge-maths">
-            <span>🔢</span> Đề Ôn Thi 18 Dạng • Thang Điểm 90
+            <span>🔢</span> 18 Question Types • Total: 90 Points
           </span>
           <div class="subject-icon">🧮</div>
-          <h2 class="subject-title">Toán Tiếng Anh 2 (Maths 2)</h2>
+          <h2 class="subject-title">Maths 2</h2>
           <p class="subject-desc">
-            Review for Midterm Test 1: Hàng chục & đơn vị, bàn tính gảy hạt cườm, thẻ mũi tên, đếm khối Base-10 mats, giá trị chữ số, phép cộng có nhớ và kim tự tháp số.
+            Cambridge Primary Maths: Tens & units, interactive bead abacus, arrow cards, base-10 mats, digit values, addition with regrouping, and addition walls.
           </p>
 
           <ul class="feature-list">
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Bàn tính tương tác gảy hạt cườm (Interactive Abacus)</span>
+              <span>Interactive bead abacus with real-time counting</span>
             </li>
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Khoanh tròn chữ số trực tiếp và làm kim tự tháp số</span>
+              <span>Interactive digit circling, Base-10 blocks & addition walls</span>
             </li>
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Đọc đề bài tiếng Anh 🔊 và hướng dẫn giải từng bước</span>
+              <span>English question reading 🔊 and step-by-step guidance</span>
             </li>
           </ul>
         </div>
 
         <a href="maths.html" class="btn-subject btn-maths" onclick="playClickSound()">
-          <span>👉</span> Bắt Đầu Làm Bài Toán
+          <span>👉</span> Start Maths Test
         </a>
       </div>
 
@@ -497,32 +491,65 @@
       <div class="subject-card" style="border-top: 6px solid #7c3aed;">
         <div class="card-top">
           <span class="subject-badge badge-grammar">
-            <span>📖</span> Đề Ôn Thi 6 Phần • Thang Điểm 37
+            <span>📖</span> 6 Parts • Total: 37 Points
           </span>
           <div class="subject-icon">📚</div>
-          <h2 class="subject-title">Ngữ Pháp (Grammar 2)</h2>
+          <h2 class="subject-title">Grammar 2</h2>
           <p class="subject-desc">
-            Starters 2 - Review for Midterm 1: Động từ khuyết thiếu can/can't, thì hiện tại đơn (simple present), trợ động từ does/doesn't, to be am/is/are và thể phủ định.
+            Starters 2 Review: Modal verbs can/can't, Simple Present tense (-s/-es), auxiliary does/doesn't, to be am/is/are, and negative sentence forms.
           </p>
 
           <ul class="feature-list">
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Nút chọn nhanh cấu trúc và gõ phím trực tiếp</span>
+              <span>Quick-choice structure chips and direct keyboard typing</span>
             </li>
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Loa phát âm ví dụ và câu văn 🔊 chuẩn Starters</span>
+              <span>Audio pronunciation for all examples and sentences 🔊</span>
             </li>
             <li class="feature-item">
               <span class="feature-check">✔</span>
-              <span>Tự động chấm điểm, xem hướng dẫn quy tắc chia động từ</span>
+              <span>Instant auto-grading with clear grammar rules & explanations</span>
             </li>
           </ul>
         </div>
 
         <a href="grammar.html" class="btn-subject btn-grammar" onclick="playClickSound()">
-          <span>👉</span> Bắt Đầu Làm Bài Ngữ Pháp
+          <span>👉</span> Start Grammar Test
+        </a>
+      </div>
+
+      <!-- LISTENING CARD -->
+      <div class="subject-card" style="border-top: 6px solid #ec4899;">
+        <div class="card-top">
+          <span class="subject-badge badge-listening" style="background:#fdf2f8; color:#db2777;">
+            <span>🎧</span> 4 Parts • Total: 24 Points
+          </span>
+          <div class="subject-icon">🎵</div>
+          <h2 class="subject-title">Listening 2</h2>
+          <p class="subject-desc">
+            Starters 2 Review: Listen and tick the correct picture, listen and write numbers 1-8, listen and write short answers, and listen & colour/draw.
+          </p>
+
+          <ul class="feature-list">
+            <li class="feature-item">
+              <span class="feature-check">✔</span>
+              <span>Full authentic Cambridge Starters audio exam 🎧</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-check">✔</span>
+              <span>Smart jump shortcuts for each part and question timestamp</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-check">✔</span>
+              <span>Interactive digital canvas to color and draw directly on scene</span>
+            </li>
+          </ul>
+        </div>
+
+        <a href="listening.html" class="btn-subject btn-listening" style="background:linear-gradient(135deg, #f43f5e 0%, #ec4899 100%); color:white;" onclick="playClickSound()">
+          <span>👉</span> Start Listening Test
         </a>
       </div>
 
@@ -531,40 +558,40 @@
     <!-- Parents Guide & Features -->
     <section class="info-section">
       <div class="info-header">
-        <span>💡</span> Hướng Dẫn & Mẹo Dành Cho Bố Mẹ
+        <span>💡</span> Helpful Tips for Parents & Students
       </div>
       <div class="tips-grid">
         <div class="tip-box">
           <div class="tip-title">
-            <span>🎧</span> Luyện Nghe & Phát Âm
+            <span>🎧</span> Listening & Speaking
           </div>
           <p class="tip-desc">
-            Nhắc bé bấm vào biểu tượng <b>🔊 Loa</b> ở mỗi bài tập để nghe giọng đọc tiếng Anh chuẩn, giúp bé làm quen với ngữ điệu và phát âm tự nhiên.
+            Encourage children to click the <b>🔊 Audio</b> icon on each question to hear native English pronunciation, improving phonetic awareness and natural intonation.
           </p>
         </div>
 
         <div class="tip-box">
           <div class="tip-title">
-            <span>💾</span> Tự Động Lưu Bài Làm
+            <span>💾</span> Auto-Save Progress
           </div>
           <p class="tip-desc">
-            Mọi bài làm và thông tin tên/lớp của bé đều được lưu tự động trên thiết bị. Bé có thể dừng lại nghỉ ngơi và tiếp tục làm bài bất kì lúc nào.
+            All answers and student information are automatically saved locally on this device. Take breaks anytime and resume seamlessly.
           </p>
         </div>
 
         <div class="tip-box">
           <div class="tip-title">
-            <span>🖨️</span> In Đề Ra Giấy (Ctrl+P)
+            <span>🖨️</span> Printable Worksheets (Ctrl+P)
           </div>
           <p class="tip-desc">
-            Cả 2 môn đều có nút <b>In đề</b> chuẩn A4 sạch đẹp để bố mẹ có thể in ra giấy cho bé luyện viết chữ và làm thử như bài thi thật.
+            Every test includes a clean, printer-friendly A4 format so you can print worksheets out for offline handwriting practice like a real exam.
           </p>
         </div>
       </div>
     </section>
 
     <footer>
-      Ôn Tập Giữa Kì 1 - Tiếng Anh & Toán Lớp 2 • Đồng hành cùng bé học giỏi mỗi ngày ❤️
+      Grade 2 Midterm Review • English, Maths, Grammar & Listening • Empowering young learners every day ❤️
     </footer>
   </main>
 

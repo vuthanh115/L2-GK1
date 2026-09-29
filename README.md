@@ -1,16 +1,17 @@
 # Cổng Ôn Tập Giữa Kì 1 - Lớp 2 (Grade 2 Midterm Review Hub)
 
-Hệ thống đề ôn thi giữa học kì 1 tương tác thông minh dành cho học sinh Lớp 2, bao gồm đầy đủ 3 môn:
+Hệ thống đề ôn thi giữa học kì 1 tương tác thông minh dành cho học sinh Lớp 2, bao gồm đầy đủ 4 môn:
 1. 🇬🇧 **Tiếng Anh 2 (English 2)**: *Review for Midterm Test 1*
 2. 🔢 **Toán Tiếng Anh 2 (Maths 2)**: *Review for Midterm Test 1*
 3. 📖 **Ngữ Pháp Tiếng Anh (Grammar 2 - Starters 2)**: *Review for Midterm Test 1*
+4. 🎧 **Luyện Nghe Tiếng Anh (Listening 2 - Starters 2)**: *Review for Midterm Test 1 (Có kèm Audio đồng bộ)*
 
 ---
 
 ## 📁 Cấu Trúc Hệ Thống:
 
 - [**`index.html`**](file:///c:/Users/thanhvp/Documents/GitHub/L2-GK1/index.html): **Trang chủ (Hub)**
-  - Nhập thông tin học sinh (Tên bé, Lớp) – tự động đồng bộ xuyên suốt cả 3 môn học.
+  - Nhập thông tin học sinh (Tên bé, Lớp) – tự động đồng bộ xuyên suốt cả 4 môn học.
   - Thẻ chọn môn học trực quan với đầy đủ mô tả dạng bài và số điểm.
   - Góc hướng dẫn phụ huynh & mẹo ôn thi hiệu quả.
 
@@ -32,9 +33,18 @@ Hệ thống đề ôn thi giữa học kì 1 tương tác thông minh dành cho
     6. Trắc nghiệm khoanh tròn đáp án đúng (Circle the correct answers) tổng hợp.
   - Nút chọn nhanh cấu trúc, loa phát âm từng câu 🔊, tự chấm điểm, giải thích quy tắc ngữ pháp chi tiết và chế độ in đề.
 
+- [**`listening.html`**](file:///c:/Users/thanhvp/Documents/GitHub/L2-GK1/listening.html): **Môn Luyện Nghe Tiếng Anh (Listening Starters 2 - 24 điểm)**
+  - 4 phần bài tập theo cấu trúc bài thi Cambridge Starters:
+    1. **Part 1: Listen and tick (✓) the box** (Nghe từ vựng/ngữ âm và đánh dấu tích vào ô vuông đúng A/B/C).
+    2. **Part 2: Listen and write a number** (Nghe hoạt động thường nhật và ghi số thứ tự 1–8 tương ứng vào ô bên cạnh tranh).
+    3. **Part 3: Listen and write answers** (Nghe đoạn hội thoại về bạn nhỏ kể chuyện gia đình và điền câu trả lời ngắn: tên, địa điểm, màu sắc, số lượng, hoạt động).
+    4. **Part 4: Listen and colour / draw** (Nghe chỉ dẫn định vị đồ vật trong phòng ngủ và tô màu/vẽ thêm đồ vật với **Bảng vẽ & tô màu điện tử tương tác (Interactive Canvas)**).
+  - Thanh phát Audio trung tâm thông minh (Play/Pause, lùi 5s, tiến 5s, chỉnh tốc độ 0.8x - 1.2x).
+  - Từng câu hỏi có nút **"▶ Nghe đoạn này"** nhảy chính xác đến timestamp của câu tương ứng.
+
 ---
 
 ## 🚀 Cách Mở & Sử Dụng:
 
 - Nhấp đúp chuột vào file **`index.html`** để vào trang chủ, sau đó chọn môn học mà bé muốn ôn tập.
-- Toàn bộ hình ảnh, âm thanh, hiệu ứng đã được đóng gói hoàn chỉnh, **chạy 100% offline không cần kết nối mạng Internet**.
+- Toàn bộ hình ảnh đã được mã hóa Base64 nhúng thẳng vào file HTML, file audio đi kèm sẵn sàng, **chạy 100% offline không cần kết nối mạng Internet**.
